@@ -1,3 +1,4 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <!DOCTYPE html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Natalia Wysocka – Wsparcie operacyjne</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap">
 
@@ -484,7 +485,7 @@ body {
 .whom-icon { color: var(--accent); font-size: 1.2rem; flex-shrink: 0; line-height: 1.5; }
 
 .cta-block {
-  background: linear-gradient(135deg, var(--accent) 0%, #4e2e8a 100%);
+  background: linear-gradient(135deg, #7c3aed 0%, #3b1a6e 60%, #2a1150 100%);
   border-radius: 16px;
   padding: 56px 48px;
   text-align: center;
@@ -592,7 +593,7 @@ body {
 .whom2-card ul{list-style:none;padding:0;margin:0}
 .whom2-card li{position:relative;padding-left:20px;color:var(--fg-muted);font-size:.9rem;line-height:1.5;margin-bottom:8px}
 .whom2-card li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
-.effect{font-size:.82rem;color:var(--fg);background:var(--accent-glow);border-left:3px solid var(--accent);padding:8px 12px;border-radius:0 6px 6px 0;margin-top:12px;margin-bottom:14px;line-height:1.5;font-family:'DM Sans',sans-serif;font-weight:400}.effect strong{color:var(--fg);font-style:normal}
+.effect{font-size:.82rem;color:var(--fg);background:var(--accent-glow);border-left:3px solid var(--accent);padding:8px 12px;border-radius:0 6px 6px 0;margin-top:12px;margin-bottom:14px;line-height:1.5;font-family:'DM Sans',sans-serif !important;font-weight:400}.effect strong{color:var(--fg);font-style:normal;font-weight:600}
 .portfolio-title{font-family:'DM Serif Display',Georgia,serif;font-size:1.05rem;font-weight:700;margin-bottom:10px;letter-spacing:-.01em;color:var(--fg);font-style:normal}
 .portfolio-list li{font-family:'DM Sans',sans-serif;font-size:.84rem;color:var(--fg-muted)}
 .about{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start}
@@ -607,7 +608,7 @@ body {
 .about-fact span{font-size:.85rem;color:var(--fg-muted)}
 .service-card .service-btn{margin-top:18px;margin-bottom:0}
 .portfolio-list{list-style:none;margin:0 0 14px;padding:0}
-.portfolio-list li{position:relative;padding-left:18px;font-size:.84rem;color:var(--fg-muted);line-height:1.5;margin-bottom:7px}
+.portfolio-list li{position:relative;padding-left:18px;font-size:.84rem !important;color:var(--fg-muted);line-height:1.5 !important;margin-bottom:7px;font-family:'DM Sans',sans-serif !important}
 .portfolio-list li::before{content:"";position:absolute;left:2px;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .portfolio-card{display:flex;flex-direction:column;background:var(--bg-card);border:1px solid var(--border-soft);border-radius:12px;overflow:hidden;transition:border-color .2s,box-shadow .2s}
 .portfolio-card:hover{border-color:var(--border);box-shadow:0 4px 20px rgba(107,71,168,.12)}
@@ -662,7 +663,7 @@ body {
 
 
 
-<section class="section" id="o-mnie">
+<section class="section section--white" id="o-mnie">
   <div class="section-label">Kim jestem</div>
   <h2 class="section-title">Liczby plus <em>porządek w procesach.</em></h2>
   <div class="about">
@@ -710,30 +711,40 @@ body {
   </div>
 </section>
 
-<section class="section" id="portfolio">
+<section class="section section--white" id="portfolio">
   <div class="section-label">Portfolio</div>
   <h2 class="section-title">Co się zmieniło <em>w firmach klientów.</em></h2>
   <div class="portfolio-grid">
 <div class="portfolio-card">
-      <div class="portfolio-body">
-        <div class="portfolio-icon">🔍</div>
-        <h3 class=”portfolio-title”>Leady przestały wypadać</h3>
-        <ul class=”portfolio-list”><li>Firma traciła kontakty między pierwszym kliknięciem a zakupem — nikt nie wiedział gdzie ani dlaczego</li><li>9 workflowów z błędami, 3 główne przyczyny, lista napraw od najpilniejszych</li><li>Teraz kliknięcie w mailing tworzy automatycznie zadanie „zadzwoń” i powiadomienie dla setera</li></ul><div class=”effect”><strong>Efekt:</strong> ok. 10 tys. aktywnych kontaktów, ponad 50 automatyzacji w jednym projekcie.</div>
-        <div class="portfolio-tags"><span>GoHighLevel</span><span>MailerLite</span><span>n8n</span><span>Audyt procesów</span><span>Webhooki</span></div>
-      </div>
-    </div>
+  <div class="portfolio-body">
+    <div class="portfolio-icon">🔍</div>
+    <h3 class="portfolio-title">Klienci przestali wypadać</h3>
+    <ul class="portfolio-list">
+      <li>Firma traciła kontakty między pierwszym kliknięciem a zakupem — nikt nie wiedział gdzie ani dlaczego</li>
+      <li>9 automatyzacji z błędami, 3 główne przyczyny, lista napraw od najpilniejszych</li>
+      <li>Teraz kliknięcie w mailing tworzy automatycznie zadanie „zadzwoń" i powiadomienie dla sprzedawcy</li>
+    </ul>
+    <div class="effect"><strong>Efekt:</strong> ok. 10 tys. aktywnych kontaktów, ponad 50 automatyzacji w jednym projekcie.</div>
+    <div class="portfolio-tags"><span>GoHighLevel</span><span>MailerLite</span><span>n8n</span><span>Audyt procesów</span><span>Integracje</span></div>
+  </div>
+</div>
 <div class="portfolio-card">
-      <div class="portfolio-body">
-        <div class="portfolio-icon">📞</div>
-        <h3 class=”portfolio-title”>Seter dzwoni, zamiast planować dzwonienie</h3>
-        <ul class=”portfolio-list”><li>Kolejka dzwonienia układała się ręcznie — seter tracił czas zamiast sprzedawać</li><li>System teraz sam pilnuje kogo i kiedy obdzwonić, z kalendarzem dni roboczych i raportem porannym</li><li>Z analizy 184 połączeń: ponad połowa „odebranych” to poczta głosowa — dodałam próg czasu, żeby system to rozumiał</li></ul><div class=”effect”><strong>Efekt:</strong> Zero ręcznych zadań. Seter rano widzi listę i dzwoni.</div>
-        <div class="portfolio-tags"><span>GoHighLevel</span><span>n8n</span><span>Komunikator zespołu</span><span>Analiza danych</span></div>
-      </div>
-    </div>
+  <div class="portfolio-body">
+    <div class="portfolio-icon">📞</div>
+    <h3 class="portfolio-title">Sprzedawca dzwoni, zamiast planować dzwonienie</h3>
+    <ul class="portfolio-list">
+      <li>Kolejka dzwonienia układała się ręcznie — sprzedawca tracił czas zamiast sprzedawać</li>
+      <li>System teraz sam pilnuje kogo i kiedy obdzwonić, z kalendarzem dni roboczych i raportem porannym</li>
+      <li>Z analizy 184 połączeń: ponad połowa „odebranych" to poczta głosowa — dodałam próg czasu, żeby system to rozumiał</li>
+    </ul>
+    <div class="effect"><strong>Efekt:</strong> Zero ręcznych zadań. Sprzedawca rano widzi listę i dzwoni.</div>
+    <div class="portfolio-tags"><span>GoHighLevel</span><span>n8n</span><span>Komunikator zespołu</span><span>Analiza danych</span></div>
+  </div>
+</div>
 <div class="portfolio-card">
       <div class="portfolio-body">
         <div class="portfolio-icon">✅</div>
-        <h3 class="portfolio-title">No-show spadły, bo system sam przypomina</h3>
+        <h3 class="portfolio-title">Nieobecność na spotkaniach spadła</h3>
         <ul class="portfolio-list"><li>Klient potwierdza spotkanie odpowiedzią na SMS lub e-mail</li><li>Brak potwierdzenia na 24 h przed terminem: spotkanie odwołuje się samo, termin wraca do kalendarza</li><li>Okres testowy: każde potwierdzenie i odwołanie trafia do komunikatora zespołu</li><li>Spisane przypadki brzegowe, np. rezerwacja na mniej niż dobę przed spotkaniem</li></ul><div class="effect"><strong>Efekt:</strong> okres testowy trwa od 10.11 i uwolnił ok. 4 terminy w tygodniu dla każdego sprzedawcy.</div>
         <div class="portfolio-tags"><span>GoHighLevel</span><span>MailerLite</span><span>SMS</span><span>Komunikator zespołu</span></div>
       </div>
@@ -800,7 +811,7 @@ body {
   </div>
 </section>
 
-<section class="section" id="uslugi">
+<section class="section section--white" id="uslugi">
   <div class="section-label">Co robię</div>
   <h2 class="section-title">Konkretne rzeczy, które <em>znikają z Twojej głowy.</em></h2>
   <p class="section-sub">Nie konsultuję. Wchodzę, robię, daję wynik. Każdy zakres ustalamy po rozmowie, bo każda firma ma inny chaos.</p>
@@ -826,7 +837,7 @@ body {
     <div class="service-card">
       <div class="service-name">Strona i integracje</div>
       <div class="service-duration">WordPress · Calendly · formularze</div>
-      <div class="service-total" style="font-size:.85rem;line-height:1.6;color:#d8caf5">Strona, która działa — zbiera leady, wysyła potwierdzenia, podpina się z CRM. Bez programisty, bez "zapytaj web developera", bez czekania tygodniami na prostą zmianę.</div>
+      <div class="service-total" style="font-size:.85rem;line-height:1.6;color:#d8caf5">Strona, która działa — zbiera klientów, wysyła potwierdzenia, podpina się z CRM. Bez programisty, bez "zapytaj web developera", bez czekania tygodniami na prostą zmianę.</div>
       <a class="service-btn" href="https://calendly.com/wysocka-nataliaa/30min" target="_blank" rel="noopener">Omów mój projekt →</a>
     </div>
   </div>
@@ -849,7 +860,7 @@ body {
   </div>
 </section>
 
-<section class="section" id="dla-kogo">
+<section class="section section--white" id="dla-kogo">
   <div class="section-label">Dla kogo</div>
   <h2 class="section-title">Dla właścicieli firm, którzy chcą <em>rosnąć bez chaosu.</em></h2>
   <div class="whom2">
@@ -861,12 +872,12 @@ body {
     <div class="whom2-card">
       <div class="whom2-head"><span class="whom-icon">🚀</span><h3>Biznesy online</h3></div>
       <p class="whom2-lead">Sklepy, kursy i subskrypcje bez działu operacyjnego.</p>
-      <ul><li>Leady i klienci wpadają do kilku różnych narzędzi</li><li>Skalujesz i potrzebujesz zaplecza</li><li>Nie masz kogoś, kto to ogarnia</li></ul>
+      <ul><li>Klienci wpadają do kilku różnych narzędzi</li><li>Skalujesz i potrzebujesz zaplecza</li><li>Nie masz kogoś, kto to ogarnia</li></ul>
     </div>
   </div>
 </section>
 
-<section class="section faq" id="faq">
+<section class="section section--white faq" id="faq">
   <div class="section-label">FAQ</div>
   <h2 class="section-title">Najczęstsze <em>pytania.</em></h2>
   <details><summary>Czy muszę dać Ci dostęp do wszystkich moich systemów?</summary><p>Nie. Dostaję dostęp tylko do tych narzędzi, których dotyczy zakres pracy, najlepiej na osobnym koncie z ograniczonymi uprawnieniami. Po zakończeniu współpracy dostęp wyłączamy.</p></details>
@@ -877,7 +888,7 @@ body {
   <details><summary>Pracujesz tylko na GoHighLevel i MailerLite?</summary><p>Nie. To narzędzia, które znam najlepiej, ale pracuję też na innych CRM, systemach mailingowych, Make, Zapier i n8n. Zaczynam od tego, co już masz.</p></details>
 </section>
 
-<section class="section" id="kontakt">
+<section class="section section--white" id="kontakt">
   <div class="section-label">Kontakt</div>
   <h2 class="section-title">Napisz, <em>z czym przychodzisz.</em></h2>
   <div class="contact-wrap">
@@ -960,3 +971,4 @@ body {
   });
 })();
 </script></body></html>
+</body></html>
